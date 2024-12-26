@@ -40,3 +40,20 @@ font-size:1.38rem; letter-spacing:-0.02em;
 font-size:0.94rem; letter-spacing:-0.02em;
 ### 페이지위치(강조) 15 medium
 font-size:0.94rem; letter-spacing:-0.02em; font-weight:500;
+# 스타일가이드 색상 정보
+### 포인트색
+color:#6A8A00;
+### 푸터색
+color:#5E4B4B;
+### 메인 내용색
+color:#333;
+### 제목/배경 배경색
+color:#000;
+### 강조 내용색
+color:#fff;
+### 배경색
+color:#eee;
+### 구분선색
+color:#ccc;
+### 부가 내용색
+color:#aaa;
