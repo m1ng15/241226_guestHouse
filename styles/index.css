@@ -4,6 +4,22 @@
 /* ========================================헤더시작 */
 #wrap .header_bg {
     background-color: #fff;
+<<<<<<< HEAD
+    width: 1920px;
+    position: fixed; top: 0; left: 0; z-index: 999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+#wrap .header_bg header {
+    width: 1760px; margin: 0 auto;
+    height: 100px;
+    padding-top: 10px;
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+#wrap .header_bg header h1 {}
+#wrap .header_bg header h1 a {}
+#wrap .header_bg header h1 a img {}
+#wrap .header_bg header .right_hd {width: calc(100% - 250px);}
+=======
     width: 1920px; height: 100px;
     position: fixed; z-index: 999
 }
@@ -18,6 +34,7 @@
 #wrap .header_bg header h1 a {}
 #wrap .header_bg header h1 a img {}
 #wrap .header_bg header .right_hd {width: 100%;}
+>>>>>>> c0aa02e2b03139471cfa8921e5c602d6fe4d3117
 #wrap .header_bg header .right_hd .login {
     font-size:0.94rem; letter-spacing:-0.02em; font-weight:600;
     text-align: right; padding-bottom: 7px;
