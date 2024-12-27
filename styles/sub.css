@@ -19,20 +19,23 @@
 #wrap .header_bg header h1 a img {}
 #wrap .header_bg header .right_hd {width: calc(100% - 250px);}
 #wrap .header_bg header .right_hd .login {
-    font-size:0.94rem; letter-spacing:-0.02em; font-weight:600;
+    
     text-align: right; padding-bottom: 7px;
     border-bottom: 1px solid #eee;
 }
-#wrap .header_bg header .right_hd .login a {margin-right: 20px; color: #aaa;}
+#wrap .header_bg header .right_hd .login a {
+    font-size:0.94rem; letter-spacing:-0.02em;
+    margin-right: 20px; color: #aaa;
+}
+#wrap .header_bg header .right_hd .login a:hover {font-weight:600;}
 #wrap .header_bg header .right_hd .login a:last-child,
 #wrap .header_bg header .right_hd nav a:last-child {margin-right: 0;}
 #wrap .header_bg header .right_hd nav {
     display: flex; flex-flow: row nowrap;
-    height: 100%;
     position: relative;
-    font-size:1.13rem; letter-spacing:-0.02em; font-weight:600;
 }
 #wrap .header_bg header .right_hd nav a {
+    font-size:1.13rem; letter-spacing:-0.02em;
     display: flex; flex-flow: row nowrap;
     align-items: center;
     padding-top: 20px; padding-left: 15px; margin-right: 50px;
@@ -43,6 +46,7 @@
     position: absolute; top: 15px; left: 0;
 }
 #wrap .header_bg header .right_hd nav a:hover {position: relative; bottom: 2px;}
+/* =========================헤더 이미지 */
 #wrap .header_img {
     height: 55vh;
     background-image: url(../images/main_visual23.jpg);
@@ -56,14 +60,19 @@
     align-items: center;
     padding-top: 15px;
 }
-#wrap main .path li {}
-#wrap main .path li a {}
+#wrap main .path li {margin-right: 5px;}
+#wrap main .path li a {
+    padding-right: 5px;
+    font-size:0.94rem; letter-spacing:-0.02em;
+}
 #wrap main .path li span {
     display: inline-block;
-    background-image: url(../images/page_arrow.png);
+    background: url(../images/page_arrow.png) no-repeat left center;
+    background-size: cover; background-position-y: center;
     width: 16px; height: 16px;
     position: relative; top: 2px;
 }
+#wrap main .path li em {font-weight: 500; position: relative; top: 1px;}
 /* =====================메인 헤더 */
 /* =====================메인 - 페이지 제목 */
 #wrap main .main_top {margin: 110px 0;}
@@ -176,14 +185,14 @@
     font-size:1.38rem; letter-spacing:-0.02em;
     border-radius: 50px;
     padding: 15px 29px 15px 20px;
-    background: #fff url(../images/btn_unactive.png) no-repeat;
+    background: #fff url(../images/gr_map.png) no-repeat;
     background-position: 97% center; background-position-y: center;
     background-size: 22px 22px;
     color: #6A8A00; 
     border: 2px solid #6A8A00;
 }
 #wrap main .main_btm .main_b_btm button:hover {
-    background: #6A8A00 url(../images/map_btn.png) no-repeat;
+    background: #6A8A00 url(../images/wh_map.png) no-repeat;
     background-position: 97% center; background-position-y: center;
     background-size: 22px 22px;
     color: #fff; font-weight: 500;
